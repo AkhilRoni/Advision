@@ -34,6 +34,8 @@ In **Developer Mode**, you can:
 
 This mode is perfect for testing, debugging, or controlled demos.
 
+![App Screenshot](Screenshots/app.png) ![App Dev Mode](Screenshots/devmode.png)
+
 ---
 
 ## 📊 Analytics & Insight Dashboard
@@ -46,6 +48,8 @@ The dashboard includes:
 - 👤 **Demographic filters** to see which age/gender group responds best to which ad
 
 This allows stakeholders to tweak ad strategy with **real behavioral data** — not guesswork.
+
+![Analytics Dashboard](Screenshots/analytics.png)
 
 ---
 
@@ -60,6 +64,8 @@ The project also includes **AdManager**, a companion website that connects direc
 - ➖ **Remove Ads** — Instantly delete any unwanted or underperforming ads
 
 Admins can use this site to manage ads remotely, analyze what's working, and update the system without touching the codebase.
+
+![Remove Ads Webpage](Screenshots/remove_ad.png)
 
 ---
 
