@@ -34,7 +34,7 @@ In **Developer Mode**, you can:
 
 This mode is perfect for testing, debugging, or controlled demos.
 
-![App Screenshot](Screenshots/app.png) ![App Dev Mode](Screenshots/devmode.png)
+![App Dev Mode](Screenshots/devmode.png)
 
 ---
 
