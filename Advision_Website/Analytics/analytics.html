@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="analyticstyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <title>AdVision - Data Analytics</title>
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar collapsed">
+      <header class="sidebar-header">
+        <div class="header-logo">
+          <img src="images/icon.png">
+        </div>
+        <button class="toggler sidebar-toggler">
+          <span class="material-symbols-rounded">chevron_left</span>
+        </button>
+        <button class="toggler menu-toggler">
+          <span class="material-symbols-rounded">menu</span>
+        </button>
+      </header>
+    
+      <nav class="sidebar-nav">
+        <ul class="nav-list primary-nav">
+          <li class="nav-item">
+            <a href="home.html" class="nav-link">
+              <span class="nav-icon material-symbols-rounded">home</span>
+              <span class="nav-label">Home</span>
+            </a>
+            <span class="nav-tooltip">Home</span>
+          </li>
+          <li class="nav-item">
+            <a href="analytics.html" class="nav-link">
+              <span class="nav-icon material-symbols-rounded">analytics</span>
+              <span class="nav-label">Data Analytics</span>
+            </a>
+            <span class="nav-tooltip">Data Analytics</span>
+          </li>
+          <li class="nav-item">
+            <a href="../Ad_management/logs.html" class="nav-link">
+              <span class="nav-icon material-symbols-rounded">table</span>
+              <span class="nav-label">Ad Logs</span>
+            </a>
+            <span class="nav-tooltip">Ad Logs</span>
+          </li>
+          <li class="nav-item">
+            <a href="../Ad_management/ads_table.html" class="nav-link">
+              <span class="nav-icon material-symbols-rounded">movie</span>
+              <span class="nav-label">Advertisements</span>
+            </a>
+            <span class="nav-tooltip">Advertisements</span>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link">
+              <span class="nav-icon material-symbols-rounded">stack</span>
+              <span class="nav-label">Ad Management</span>
+              <span class="dropdown-arrow material-symbols-rounded">expand_more</span>
+            </a>
+            <span class="nav-tooltip">Ad Management</span>
+            <ul class="dropdown-list">
+              <li class="dropdown-item">
+                <a href="..\Ad_management\add.html" class="dropdown-link">
+                  <span class="nav-icon material-symbols-rounded">add_circle</span>
+                  <span class="nav-label">Add Ad</span>
+                </a>
+              </li>
+              <li class="dropdown-item">
+                <a href="..\Ad_management\remove.html" class="dropdown-link">
+                  <span class="nav-icon material-symbols-rounded">remove_circle</span>
+                  <span class="nav-label">Remove Ad</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+    
+        <ul class="nav-list secondary-nav">
+          <li class="nav-item">
+            <a href="../Ad_management/index.html" class="nav-link">
+              <span class="nav-icon material-symbols-rounded">logout</span>
+              <span class="nav-label">Logout</span>
+            </a>
+            <span class="nav-tooltip">Logout</span>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+    <div class="main-content">
+      <h1>AdVision Analytics</h1>
+      <div class="box">
+      <div class="charts-container">
+        <a href="freqAge.html">
+          <div class="chart-box">
+            <canvas id="freqAgeChart" style="width: 350px; height: 220px;"></canvas>
+        </div>
+        </a>
+        <a href="liked.html">
+          <div class="chart-box">
+            <canvas id="likedAdsChart" style="width: 350px; height: 220px;"></canvas>
+          </div>
+        </a>
+        <a href="rejected.html">
+          <div class="chart-box">
+            <canvas id="rejectedAdsChart" style="width: 350px; height: 220px;"></canvas>
+        </div>
+        </a>
+        <a href="timedist.html">
+          <div class="chart-box">
+            <canvas id="timedistChart" style="width: 350px; height: 220px;"></canvas>
+        </div>
+        </a>
+        <a href="switched.html">
+          <div class="chart-box">
+            <canvas id="adSwitchChart" style="width: 350px; height: 220px;"></canvas>
+          </div>
+        </a>
+        <a href="moodtrend.html">
+          <div class="chart-box">
+            <canvas id="moodTrendChart" style="width: 350px; height: 220px;"></canvas>
+          </div>
+        </a>
+      </div>
+      </div>
+    </div>
+  </div>
+
+
+  
+  <script src="analyticscript.js"></script>
+</body>
+</html>
